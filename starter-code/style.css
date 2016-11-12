@@ -1,3 +1,23 @@
 /* This is a multi-line
 comment. Add your CSS code
 from Unit 1 - 5 below  */
+
+
+.card{
+    margin:  8%;
+    height:200px;
+    width:180px;
+    border-width: 1px;
+    border-color: black;
+    border-radius: 20%;
+    border-style: solid;
+    background-color: #e5f442;
+    display: block;
+    float: left;
+  }
+
+  .board{
+    height: 50%;
+    width: 50%;
+    display: inline-block;
+    border-color: black;

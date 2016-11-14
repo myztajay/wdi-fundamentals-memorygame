@@ -1,19 +1,73 @@
 /* This is a multi-line
 comment. Add your CSS code
 from Unit 1 - 5 below  */
+body {
+  margin: 0;
+  text-align: center;
+}
 
+.jumbotron {
+  padding-top: 30px;
+  padding-bottom: 30px;
 
+  color: inherit;
+  background-color:#96ceb4;
+}
+.jumbotron h1{
+  font-family: "oswald",sans-serif;
+  color:	#3c6998;
+}
+.jumbotron h2{
+  color: 	#66004d;
+  font-family: "oswald",sans-serif;
+}
+.container {
+width:800px;
+  margin-right: auto;
+  margin-left: auto;
+  
+}
+footer{
+  height:20px;
+  background-color:black;
+  color:white;
+  font-size: 16px;
+}
 .card{
+    background-image: url('images/back.jpg');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
     margin:  8%;
-    height:200px;
+    height:250px;
     width:180px;
-    border-width: 1px;
-    border-color: black;
-    border-radius: 20%;
+    border-width: 10px;
+    border-color: white;
+    border-radius: 7%;
     border-style: solid;
     background-color: #e5f442;
     display: block;
     float: left;
+
+
+  }
+
+  .king{
+    background-image: url('images/kingd.png');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height:250px;
+    width:180px;
+    background-color: white;
+
+  }
+
+  .queen{
+    background-image: url('images/queend.png');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height:250px;
+    width:180px;
+    background-color: white;
   }
 
   .board{
@@ -21,3 +75,5 @@ from Unit 1 - 5 below  */
     width: 50%;
     display: inline-block;
     border-color: black;
+    background-color: 	#ffeead;
+}
